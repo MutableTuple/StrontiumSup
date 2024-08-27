@@ -3,7 +3,7 @@ import { singUpUser } from "../_lib/actions";
 import { MdSend } from "react-icons/md";
 export default function Form() {
   return (
-    <form action={singUpUser} className="w-3/4 flex gap-2">
+    <form action={singUpUser} className="w-3/4 flex flex-col lg:flex-row gap-2">
       <input
         type="email"
         name="email_input"
@@ -13,7 +13,7 @@ export default function Form() {
       />
       <button
         type="submit"
-        className="bg-black text-white px-2 flex items-center gap-2 "
+        className="bg-black text-white  lg:px-1 px-2 lg:py-0 py-4 flex items-center gap-2 md:text-md text-xs justify-center"
       >
         Register <MdSend size={20} />
       </button>

@@ -34,7 +34,6 @@
   }
 
   .mobile-frame {
-    width: 390px; /* Typical mobile width */
     border: 12px solid rgba(92, 92, 92, 0.7); /* Adjusted border size */
     border-radius: 30px; /* Smoother corners */
     padding: 20px;
