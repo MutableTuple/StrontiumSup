@@ -7,7 +7,7 @@ import Footer from "./_components/Footer";
 export default function page() {
   return (
     <>
-      <div className="md:px-12 px-4 py-4">
+      <div className="md:px-12 px-4 py-4 ">
         <Navbar />
         <Main />
       </div>

@@ -10,9 +10,7 @@ export default function Footer() {
       <div className="flex gap-4">
         <Link
           target="_blank"
-          href={
-            "https://www.linkedin.com/company/strontiumapp/?viewAsMember=true"
-          }
+          href={"https://www.linkedin.com/company/strontiumapp/"}
         >
           <FaLinkedinIn />
         </Link>
