@@ -48,7 +48,7 @@ export default function Main() {
   return (
     <div className="grid grid-cols-8 h-dvh text-center grid-rows-2 md:text-start md:grid-rows-1 ">
       <div className="h-full col-start-1 col-end-9 md:col-end-4  flex flex-col justify-center items-center md:items-start gap-8 relative">
-        <div className="md:mb-24 md:mt-0 mt-44 mb-8 md:text-start text-center ">
+        <div className="md:mb-24 md:mt-0 mt-48 mb-8 md:text-start text-center ">
           <h1 className="text-xs">INTRODUCING</h1>
           <br />
           <h1 className="text-4xl font-black md:text-5xl lg:text-7xl ">

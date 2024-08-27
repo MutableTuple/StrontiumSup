@@ -9,7 +9,7 @@ export default function Sub() {
             WHY JOIN?
           </h1>
 
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4 sm:text-md text-sm">
             <li className="flex items-center gap-4">
               <FaCheck color="#00a60b" /> A network dedicated to fostering
               growth and intelligence, counteracting the negative effects of
