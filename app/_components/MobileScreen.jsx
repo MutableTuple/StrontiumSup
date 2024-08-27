@@ -6,7 +6,7 @@ import MasonryQuotes from "./MasonryQuotes";
 export default function MobileScreen() {
   return (
     <motion.div
-      className="h-[640px] w-96 mt-24 rounded-t-md overflow-scroll outline-stone-100 border-2 shadow-ext p-2 mobile-frame no-scrollbar"
+      className="h-[640px]  w-96  rounded-t-md overflow-scroll outline-stone-100 border-2 shadow-ext p-2 mobile-frame no-scrollbar"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -37,7 +37,7 @@ export default function MobileScreen() {
                 metallic
               </span>
             </h1>
-            <p className="text-xs mb-2">
+            <p className="text-xs mb-2 text-start">
               The platform where time is valued—no mindless scrolling through
               meaningless reels!
             </p>

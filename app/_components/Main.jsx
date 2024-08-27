@@ -46,23 +46,27 @@ export default function Main() {
   }, []);
 
   return (
-    <div className="grid grid-cols-8 h-dvh">
-      <div className="h-full col-start-1 col-end-4 flex flex-col justify-center gap-8 relative">
-        <div className="mb-24">
+    <div className="grid grid-cols-8 h-dvh text-center grid-rows-2 md:text-start md:grid-rows-1 ">
+      <div className="h-full col-start-1 col-end-9 md:col-end-4  flex flex-col justify-center items-center md:items-start gap-8 relative">
+        <div className="md:mb-24 md:mt-0 mt-44 mb-8 md:text-start text-center ">
           <h1 className="text-xs">INTRODUCING</h1>
           <br />
-          <h1 className="text-7xl font-black ">Strontium for</h1>
+          <h1 className="text-4xl font-black md:text-5xl lg:text-7xl ">
+            Strontium for
+          </h1>
           <AnimatePresence>
-            <motion.h1
-              key={currentRole}
-              className="text-7xl font-bold absolute"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.5, ease: "easeInOut" }}
-            >
-              <TypingText text={currentRole} />
-            </motion.h1>
+            <div className="md:text-start text-center">
+              <motion.h1
+                key={currentRole}
+                className="text-4xl font-black md:text-5xl lg:text-7xl  font-bold absolute "
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
+              >
+                <TypingText text={currentRole} />
+              </motion.h1>
+            </div>
           </AnimatePresence>
         </div>
         <h3 className="">
@@ -74,7 +78,7 @@ export default function Main() {
         </p>
         <Form />
       </div>
-      <div className="h-full col-start-5 col-end-9 flex flex-col justify-center items-center ">
+      <div className="h-[900px] md:col-start-5 md:col-end-9 flex flex-col justify-center items-center md:row-start-1 row-start-2 col-start-1 col-end-9  md:-mt-28 -mt-0 ">
         <MobileScreen />
       </div>
     </div>

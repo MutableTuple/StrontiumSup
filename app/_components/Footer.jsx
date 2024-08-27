@@ -8,10 +8,20 @@ export default function Footer() {
     <div className="w-full p-8 flex justify-between border-t">
       <Logo />
       <div className="flex gap-4">
-        <Link href={"/"}>
+        <Link
+          target="_blank"
+          href={
+            "https://www.linkedin.com/company/strontiumapp/?viewAsMember=true"
+          }
+        >
           <FaLinkedinIn />
         </Link>
-        <Link href={"/"}>
+        <Link
+          target="_blank"
+          href={
+            "https://www.producthunt.com/posts/strontium?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-strontium"
+          }
+        >
           <GrProductHunt />
         </Link>
       </div>

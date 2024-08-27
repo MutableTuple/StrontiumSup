@@ -2,7 +2,7 @@ import React from "react";
 import { FaCheck } from "react-icons/fa";
 export default function Sub() {
   return (
-    <div className="bg-black z-10 relative p-8">
+    <div className="bg-black z-10 md:relative block p-8 mt-[420px] md:mt-0">
       <div className="text-white flex ">
         <div>
           <h1 className="mb-4 font-bold border-b w-full uppercase">
